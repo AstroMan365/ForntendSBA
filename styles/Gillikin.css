@@ -1,0 +1,9 @@
+body{
+    background-image: url(/images/Gillikin.jpg);
+    display: flex;
+    background-size: cover;
+    background-color:	#debe20;
+    margin:0;
+    height: 800px;
+    text-align:center;
+}

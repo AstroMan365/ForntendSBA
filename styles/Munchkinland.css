@@ -1,0 +1,9 @@
+body{
+    background-image: url("images\Munchkinland.jpeg");
+    display:flex;
+    background-size: cover;
+    background-color:	#efcb16;
+    margin: 0;
+    height: 800px;
+    text-align: center;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Traveler</title>
+
+   <link rel="stylesheet" href='/style.css/register.css'>
+    <style>
+        .error-message {
+          color: #f0ad4e;
+          font-size: 12px;
+          margin-top: -15px;
+          margin-bottom: 10px;
+          display: none;
+        }
+    </style>
+</head>
+<body> 
+    <div class="image-section"></div>
+    <div class="navbar">
+        <div class="navbar-logo"> <img src="/images/nav3.jpeg" alt="logo"></div>
+        <div class="navbar-title">In The Know</div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="/pages/Home.html">Home</a></li>
+                <!-- <li><a href="/pages/register.html" style="font-family: 'Cormorant Unicase', serif; text-transform: uppercase;">New Traveler</a></li> -->
+                <li><a href="/pages/login.html">Login</a></li>
+                <!-- <li><a href="/pages/Countries.html">Counrties</a></li> -->
+            </ul>
+        </div>
+    <div class="container"> </div>
+      <dic class="form-section">
+        <h1>Sign Up</h1>
+        <h3>Take the next Step</h3>
+    <form id="registerForm" action="login.html" method="get" enctype="multipart/form-data">
+        <div>
+            <label for="username">User Name:</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label for="Dateofbirth">Year:</label>
+            <input type="date" name="Dateofbirth" id="Dateofbirth">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="123-45-678">
+        </div>
+        <textarea name="about" id="about" cols="20" rows="5"></textarea>
+        <div>
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">I agree to the terms and conditions</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+        <div class="error-message" id="error-message">Please fill out all fields.
+        
+    </div>
+    <p>Already a member?... <a href="login.html">Login</a></p>
+      
+    <script src="../js/validation.js"></script> 
+    </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+  
+body {
+  overflow-x: hidden;
+  margin: 0;
+  height: 160vh;
+  width: 100%;
+}
+
+.navbar {
+  background-color: rgb(10, 41, 20);
+  color: rgb(208, 25, 119);
+  padding: 1em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-logo {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  font-family: "", sans-serif;
+  font-weight: 400;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1em;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}

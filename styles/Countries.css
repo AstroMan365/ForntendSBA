@@ -1,0 +1,28 @@
+body{
+    border: 1px solid #022d07;
+    padding: 0;
+    background-size: cover;
+    background-color: #c5a60b;
+    opacity: 95%;
+    background-blend-mode: screen;
+}
+
+.container {
+    margin: 0;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family:  Cinzel Decorative, serif;
+}
+
+.image-selector {
+    flex:content;
+    background-image: url(/images/OzMap.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: hue;
+}
